@@ -1,0 +1,5 @@
+python train.py -lf ../data/labels.txt -f ../data/filepath.txt -df ../data/
+python predict.py -lf ../data/labels.txt -mf result/model_450.npz -if ../data/a/1.png
+
+python3 train.py -lf ../data/labels.txt -f ../data/filepath.txt -df ../data/ -l 8
+python3 predict.py -lf ../data/labels.txt -mf result/model_21600.npz -if ../data/sadness/1.png -l 8

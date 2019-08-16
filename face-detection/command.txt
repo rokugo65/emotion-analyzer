@@ -1,0 +1,1 @@
+python3 face-detection.py -lf labels.txt -mf model.npz -if 1.png -l 8
